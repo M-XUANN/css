@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS常见布局</title>
+  <link rel="stylesheet" type="text/css" href="index1.css">
+</head>
+<body>
+	 <div class='container'>
+            <div id='header'>
+                <h3>CSS常见布局</h3>
+                <p>CSS的常见布局，如圣杯布局，双飞翼布局</p>
+                <ul class='clearfix'>
+                    <li><a href='index1.html'>圣杯布局</a></li>
+                    <li><a href='index2.html'>双飞翼布局</a></li>
+                   
+                </ul>
+            </div>
+           <div class='view'>
+           		<div class='header'>头部</div>
+           		<div class='content'>
+           			<div class="main">圣杯布局是指两边顶宽中间自适应的三栏布局，中间栏要放在文档流前面以优先渲染，其流程为:（1）设置container的左右padding，用于预留左右边栏的空间<br/>（2）给所有元素设置定位和浮动，用于设置左右两栏偏移<br/>（3）给左边栏设置right让其移动，设置父边距100%让跑到上面，给右边栏设置margin让其跑到上面</div>
+           			<div class='left-side'>左侧边栏</div>
+           			<div class='right-side'>右侧边栏</div>
+           		</div>
+           		<div class='footer'>尾部</div>
+           </div>
+			
+           
+
+        </div>
+</body>
+</html>
